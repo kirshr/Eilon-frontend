@@ -1,0 +1,24 @@
+@import "../abstract/colors";
+.npcs {
+  margin-top: 5rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+    color: $bright-gold;
+    width: 100%;
+  }
+}
+.npcs .npc-card {
+  height: 35rem;
+  &:hover {
+    border: 2px solid $bright-gold;
+  }
+  h2 {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}

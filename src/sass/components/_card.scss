@@ -1,0 +1,16 @@
+@import "../abstract/colors";
+
+.card {
+  border: 2px solid $muted-gold;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 30rem;
+  height: 20rem;
+  h2 {
+    text-align: center;
+    border-top: 0.2rem solid $muted-gold;
+    padding-top: 0.2rem;
+    background-color: #030404e8;
+  }
+}

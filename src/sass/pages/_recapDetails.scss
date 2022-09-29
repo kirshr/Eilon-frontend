@@ -1,0 +1,17 @@
+@import "../abstract/colors";
+
+.recap-details {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .recap-details-container {
+    p:first-of-type {
+      &:first-letter {
+        color: $bright-gold;
+        font-size: 5rem;
+        letter-spacing: 0.2rem;
+      }
+    }
+  }
+}
